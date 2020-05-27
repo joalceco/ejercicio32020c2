@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Ejercicio3</title>
+</head>
+<body>
+    
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.palabra1.label }} {{ form.palabra1() }}
+        {{ form.palabra2.label }} {{ form.palabra2() }}
+        {{ form.submit() }}
+    </form>
+
+</body>
+</html>
